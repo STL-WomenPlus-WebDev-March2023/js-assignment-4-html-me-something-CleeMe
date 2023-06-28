@@ -1,8 +1,8 @@
 /* Write your CSS here! */
 
 body {
-  background-color: #fdf8f0;
-  margin-top: 150px;
+  background-color: #FDF8F0;
+  margin-top: 0px;
   margin-bottom: 100px;
   margin-right: 50px;
   margin-left: 50 px;
@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: #fdf8f0;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   margin-bottom: 50px;
@@ -23,7 +23,7 @@ h1 {
   color: blue;
   font-size: 56px;
   text-align: center;
-  position: fixed;
+  position: sticky;
   top: 15;
   width: 100%;
 }
@@ -33,7 +33,7 @@ ul {
   padding: 1;
   overflow: hidden;
   background-color: #00008b;
-  position: relative;
+  position: sticky;
   top: 25;
   margin-bottom: 50px;
   width: 100%;
@@ -68,7 +68,7 @@ p {
 }
 #intro {
     background-color: #fdf8f0;
-    position: sticky;
+    
     top: 35;
     width: 100%;
     margin-bottom: 50px;

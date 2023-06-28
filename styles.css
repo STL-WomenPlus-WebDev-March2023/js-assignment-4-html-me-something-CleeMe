@@ -6,7 +6,23 @@ body {
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
+    text-align: center;
   }
+
+  nav {
+    background-color: blue
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  li {
+    float: left;
+    padding: 15px;
+  }
+
   title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;

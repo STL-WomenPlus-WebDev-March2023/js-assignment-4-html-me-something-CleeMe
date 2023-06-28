@@ -19,7 +19,7 @@ header {
   margin-left: 0px;
 }
 
-h1 {
+#title {
   color: blue;
   font-size: 56px;
   text-align: center;
@@ -59,6 +59,16 @@ li a:hover {
   background-color: #ccccff;
 }
 
+h2 {
+    list-style-type: none;
+    padding: 1;
+    overflow: hidden;
+    background-color: #00008b;
+    top: 25;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
 p {
   font-family: Georgia;
   font-size: 20px;
@@ -67,18 +77,16 @@ p {
   text-align: center;
 }
 #intro {
-    background-color: #fdf8f0;
-    
     top: 35;
-    width: 100%;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 0px;
+    width: 75%;
+    font-size: 20px;
+    margin-bottom: 50px;;
+    margin-left: 150px;
 }
 
 img {
   border-radius: 20px;
-  max-width: 75%;
+  max-width: 35%;
   height: auto;
   display: block;
   margin-left: auto;

@@ -2,11 +2,12 @@
 
 body {
   background-color: #FDF8F0;
-  margin-top: 0px;
+  margin-top: 8px;
   margin-bottom: 100px;
   margin-right: 50px;
   margin-left: 50 px;
   text-align: center;
+  display: block;
 }
 
 header {
@@ -19,8 +20,8 @@ header {
   margin-left: 0px;
 }
 
-#title {
-  color: blue;
+#mainHeading {
+  color: red;
   font-size: 56px;
   text-align: center;
   position: sticky;
@@ -84,6 +85,10 @@ p {
     font-size: 22px;
     margin-bottom: 50px;;
     margin-left: 150px;
+}
+
+.funParagraph {
+  color: green
 }
 
 img {

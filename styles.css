@@ -73,13 +73,14 @@ p {
   font-family: Georgia;
   font-size: 20px;
   height: 200px;
-  width: 100%;
-  text-align: center;
+  width: 75%;
+  margin-bottom: 50px;;
+  margin-left: 150px;
 }
 #intro {
     top: 35;
     width: 75%;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 50px;;
     margin-left: 150px;
 }

@@ -1,1 +1,118 @@
 /* Write your CSS here! */
+
+body {
+  background-color: #FDF8F0;
+  margin-top: 8px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50 px;
+  text-align: center;
+  display: block;
+}
+
+header {
+  background-color: #fdf8f0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 0px;
+}
+
+#mainHeading {
+  color: red;
+  font-size: 56px;
+  text-align: center;
+  position: sticky;
+  top: 15;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1;
+  overflow: hidden;
+  background-color: #00008b;
+  position: sticky;
+  top: 25;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+li {
+  float: left;
+  padding: 20;
+  font-size: 18px;
+}
+
+li a {
+  font: Georgia;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 22px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  background-color: #ccccff;
+}
+
+h2 {
+    list-style-type: none;
+    padding: 1;
+    overflow: hidden;
+    background-color: #00008b;
+    color: white;
+    font-size: 28px;
+    top: 25;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 20px;
+  width: 75%;
+  margin-bottom: 50px;;
+  margin-left: 150px;
+}
+#intro {
+    top: 35;
+    width: 75%;
+    font-size: 22px;
+    margin-bottom: 50px;;
+    margin-left: 150px;
+}
+
+.funParagraph {
+  color: green
+}
+
+img {
+  border-radius: 20px;
+  max-width: 35%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+cite {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#progress {
+  border-radius: 8px;
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
